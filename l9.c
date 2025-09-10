@@ -10,7 +10,7 @@ int main()
     for (int k = 3; k > i; k--)
     {
       printf(" ");
-    }
+    } 
     for (int p = 3; p > i; p--)
     {
       printf(" ");
