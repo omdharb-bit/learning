@@ -15,7 +15,7 @@ for (int k = 0; k < 5;k++){
 }
 }*/
 
-// palindrome
+/*   palindrome
 
 #include<stdio.h>
 int main(){
@@ -32,4 +32,26 @@ int main(){
   printf("It is not Palindrome");
 }
   
+}*/
+
+
+//  Max sum
+
+#include<stdio.h>
+#include<limits.h>
+int main(){
+  int arr[6] = {0, -5, 3, -4, 5, 7};
+  int maxSum = INT_MIN;
+
+  for (int i = 0; i < 6;i++){
+    int currSum = 0;
+    for (int j = 1; j < 6;j++){
+      currSum = currSum + arr[j];
+    } 
+if(currSum>maxSum){
+  maxSum = currSum;
+}
+  }
+
+printf("%d", maxSum);
 }
