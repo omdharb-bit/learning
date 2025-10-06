@@ -25,11 +25,9 @@
 int main(){
   char name[] = "Om Dhar";
   char data[10];
-while (name)
-{
-  /* code */
+  for (int i = 0; name[i] != 0; i++){
+    data[i] = name[i];
 }
-
-
-  return 0;
+printf("%s", data);
+return 0;
 }
