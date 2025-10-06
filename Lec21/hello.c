@@ -43,6 +43,6 @@ break;
 }
 }
  
-printf("%s", name);
+printf("%c", name[1]);
 return 0;
 }
