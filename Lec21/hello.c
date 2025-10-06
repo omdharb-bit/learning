@@ -22,12 +22,27 @@
   //   printf(" %c", name[i]);
   // }
 
+// store two different string in one
 int main(){
-  char name[] = "Om Dhar";
-  char data[10];
-  for (int i = 0; name[i] != 0; i++){
-    data[i] = name[i];
+  // char name[] = "Om Dhar";
+//   char data[10];
+//   for (int i = 0; name[i] != 0; i++){
+//     data[i] = name[i];
+// }
+// printf("%s", data);
+
+//palidrom or not
+
+  char name[] = "wow";
+  int ln = strlen(name);
+  int isTrue = 1;
+  for (int i = 0; i < ln / 2;i++){
+if(name[i]!=name[ln-i-1]){
+  isTrue = 0;
+break;
 }
-printf("%s", data);
+}
+ 
+printf("%s", name);
 return 0;
 }
