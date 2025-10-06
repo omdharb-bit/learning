@@ -40,7 +40,31 @@
   
 
 
+// remove duplicate
 
+    char name[] = "dihh";
+    int ln = strlen(name);
+    char data[20];
+    int index = 0;
+    for (int i = 0; i < ln; i++)
+    {
+      int isTrue = 1;
+      for (int j = 0; j < index; j++)
+      {
+        if (name[i] == data[j])
+        {
+          isTrue = 0;
+          break;
+        }
+      }
+      if (isTrue == 1)
+      {
+        data[index] = name[i];
+        index++;
+      }
+    }
+    data[index] = '\0';
+    printf("NAME: %s", data);
+   return 0;
 
-  
 }
