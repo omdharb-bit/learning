@@ -1,2 +1,1 @@
-
-    printf("Name: %s", name);
+char str[] = "hii";
