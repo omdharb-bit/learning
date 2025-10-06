@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include<string.h>// for length of string
-int main(){
-  char name[] = "Om_dhar";
-  int i = 0;
+  // int i = 0;
+
+   
+
+//length of string
+
+  // int ln = strlen(name);
+  // printf("%d", ln);
 
   // while (name[i] != '\0')
   // {
@@ -10,11 +15,21 @@ int main(){
   //   i++;
   // }
 
-//length of string
+// using for loop
 
-  int ln = strlen(name);
-  printf("%d", ln);
+  // for (int i = 0; name[i] != '\0';i++){
 
-  // printf("Name: %s", name);
+  //   printf(" %c", name[i]);
+  // }
+
+int main(){
+  char name[] = "Om Dhar";
+  char data[10];
+while (name)
+{
+  /* code */
+}
+
+
   return 0;
 }
