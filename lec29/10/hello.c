@@ -32,5 +32,5 @@ for (int i = 0; i < 4;i++){
   xor = xor ^ arr[i];
 xor = xor >> 1;
 }
-printf("%d", xor);
+printf("The missing element is %d", xor);
 }
